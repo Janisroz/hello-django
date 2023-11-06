@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 #     }
 # }
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('postgres://vhelqayo:Y7EzclJh-mghs3cHPT2CNyfZZVXk8nV5@flora.db.elephantsql.com/vhelqayo'))
 }
 
 # Password validation
